@@ -31,7 +31,7 @@ function App() {
     if (input) {
       setInput(evaluate(input).toString());
     } else {
-      setInput('');
+      setInput('')
     }
   }, [input]);
 
